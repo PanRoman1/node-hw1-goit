@@ -1,6 +1,6 @@
 const path = require("path");
 const fs = require("fs/promises");
-const { nanoid } = require("nanoid");
+const { v4 } = require("uuid");
 
 const contactsPath = path.resolve("./db/contacts.json");
 
@@ -57,7 +57,7 @@ async function addContact(name, email, phone) {
     const data = await fs.readFile(contactsPath);
     const contacts = JSON.parse(data);
     const newContact = {
-      id: nanoid(),
+      id: v4(),
       name,
       email,
       phone,
