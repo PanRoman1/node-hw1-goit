@@ -1,0 +1,29 @@
+{
+  "name": "node-hw1-goit",
+  "version": "1.0.0",
+  "description": "Node homework 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PanRoman1/node-hw1-goit.git"
+  },
+  "keywords": [],
+  "author": "Roman Panchuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PanRoman1/node-hw1-goit/issues"
+  },
+  "homepage": "https://github.com/PanRoman1/node-hw1-goit#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "commander": "^10.0.0",
+    "nanoid": "^4.0.1"
+  }
+}
